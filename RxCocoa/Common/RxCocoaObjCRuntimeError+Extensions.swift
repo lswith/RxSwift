@@ -11,6 +11,8 @@
         import RxCocoaRuntime
     #endif
 #endif
+import RxCocoa_RxCocoaRuntime
+import Foundation
 
 #if !DISABLE_SWIZZLING && !os(Linux)
     /// RxCocoa ObjC runtime interception mechanism.

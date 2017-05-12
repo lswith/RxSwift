@@ -15,6 +15,7 @@ import Foundation.NSObject
         import RxCocoaRuntime
     #endif
 #endif
+import RxCocoa_RxCocoaRuntime
 
 #if !DISABLE_SWIZZLING && !os(Linux)
 fileprivate var deallocatingSubjectTriggerContext: UInt8 = 0

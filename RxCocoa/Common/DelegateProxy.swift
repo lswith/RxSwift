@@ -10,6 +10,7 @@
 
 #if !RX_NO_MODULE
     import RxSwift
+    import RxCocoa_RxCocoaRuntime
     #if SWIFT_PACKAGE && !os(Linux)
         import RxCocoaRuntime
     #endif
